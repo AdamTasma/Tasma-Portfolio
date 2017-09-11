@@ -1,0 +1,104 @@
+/* portfolioStyle.css */
+
+body {
+  background-color:black;
+}
+
+.card {
+  border:0;
+   img{
+    width:100%;
+    border-radius:10%;
+    box-shadow:10px 10px 5px #888888;
+
+  }
+}
+.card-text {
+  font-size:12px;
+}
+.card-header {
+  font-size:26px;
+}
+/*nav-bar functions*/
+a:hover {
+  color: red;
+}
+a:active {
+  color: #8E1923;
+}
+
+/* anything larger than mobile */
+@media (min-width: 767px)
+{
+.nav-pills {
+    z-index:5;
+    width: 100%;
+    max-width: 100%;
+    height: 75px;
+    background-color: black;
+    position: static;
+    font-family:"Bubbler One";
+    font-size: 2.0em;
+    }
+}
+
+/* mobile and smaller */
+@media (max-width: 767px)
+{
+.nav-pills {
+    font-family:"Bubbler One";
+    font-size: 1.5em;
+    background-color: black;
+    }
+}
+/*about section*/
+.about {
+  background-color: black;
+  background-image: url("https://lh3.googleusercontent.com/pRjr5Elqa_DBll_aVSQ81fJCMuVkh2bioJiHLc0935J4eIiM8qO-5dUPM-gnyg79aUUYSxdasaOEr6QneEUEb8Bx4NFBoFRzL_lqwpTCNGE9qEu-R926aWu-8RlwRoVPBfLOIkj2tzIFCAZQWAGjLaRhm8FcgYUDBkViS0oYHMTAOOBALMVYBrws7AhOwcKoh1IwKkA73nxh_VibJzb_tqEaS5X02yGK2cE4buNuNaDDLyg6mNXrwI_nD_V35SRYMaNI5QkVKAj9E4bTeevXnHr-08fk5_8Y3KF4dT5aulVKIZqc5bTK4Sp7rQ08k4pJUY09yuBF5LAqZPGKHSejNJjE2T10AccNC-A5FgbdoR42XcTlRj2nZqPcmQyJ6mlEfQIMholjl9JHTSRKxJ4NtQidJuowzz5Z2PcC7wMGCAmEclw_LBi6LO-dJt_IxsypN4r3wl_-HJM54R68nU2fhROpOwbdcrx3vvISXYMAsMGKFbf8d1X3UgTZigtbVM2sSmtT2JmVb_6I7g1FVoL2rcq-KdsYKzDerPCL2kl9svSiM8dUJkJJDjUAaanuavZeHJMcMFg5LF1Bf72t1vIYy_sEOo-5OEJ7GA9sLQJKfam2hsX-coFL=w1021-h638-no");
+  background-repeat: no-repeat;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-top: 75px;
+  opacity: .5;
+}
+
+/*Portfolio Section*/
+.portfolio {
+  background-image: url("https://lh3.googleusercontent.com/7ZjlF_D7UXmIggnVgQq9P4qx2gUmX8TKtcizquaJO8ub-CVKD3XUdjWaLmIMT87zcgzjNU_X-Fja4UdJXKljjH5WUYB3pLQ6Zl1COoRUtUW-gfnLC8bzCZrrXeToO3iUBNWDAZ2ZsdMpnFkRooBjFOEaZJgpTVchUXKObqJIE7rwUQPXG5IJ1rU6lPL2smf--5Cz1Qgz6iBTtUSaTnWI_raw1ZiH-K9qs4fAAqjzdi5Aucq0qwvrLLzkfUO39pGrUsm3jweSCAuS6XYZd1sam5GdeRFksqL1ko2B4ez7m_EF6cA3kxSlCX9rZB0ThFFKT8iRTrYTk_HApH2sC4tvSwkXfbN0BehUkeovfO_pmEVogCul6j1BSke6R5TRXivQpw2na-BgcECImhHzzc03IWLLQVrMfEnmBs3UFPswFW3iH6ekZhI4AtVmAdcVTy1QdH5vCww0LFExhJklmy34M7T29SDo3xj8BdAvIUp2HXxrVBGdhLhGdZ7Xpy_ZMKN3FVWYfEbZ33NN77kjzODyPyrWHaZOO_LVcyX_qR2eMVa1tLu4xUji_ePW9aSVhQzfysSeP-Rc65hOVHuoDJif3tCxZlmDOZ8EIT3W9vnGW114dw0qqoFW=w1024-h576-no");
+  background-repeat: no-repeat;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-top: 75px;
+  padding-bottom: 190px;
+  opacity: .9;
+}
+
+/*Contact Section*/
+.contact {
+  background-color:#153E80;
+  padding-top: 75px;
+}
+
+.form-group {
+  background-color:red;
+}
+
+  footer {
+  background-color: black;
+  padding-top: 5px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    footer {
+        position: absolute;
+    }
+}
