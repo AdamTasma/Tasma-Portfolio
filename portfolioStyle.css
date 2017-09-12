@@ -61,7 +61,7 @@ a:active {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  padding-top: 75px;
+  padding-top: 5px;
   opacity: .5;
 }
 
@@ -74,15 +74,15 @@ a:active {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  padding-top: 75px;
-  padding-bottom: 190px;
+  /*padding-top: 75px;
+  padding-bottom: 190px;*/
   opacity: .9;
 }
 
 /*Contact Section*/
 .contact {
   background-color:#153E80;
-  padding-top: 75px;
+  padding-top: 20px;
 }
 
 .form-group {

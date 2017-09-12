@@ -10,7 +10,11 @@
     <link rel="stylesheet"
           type="text/css"
           href="portfolioStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet" type="text/css">
+    <script src="scripts.js"></script>
   </head>
+
+
 <!--!!!!!!!!!!!!!!!!!Contact Section!!!!!!!!!!!!!!-->
 
 <!-- Navigation Bar-->
@@ -26,11 +30,20 @@
 </nav>
 
 <div id="contact" class="contact">
-    <h1 class="text-center">/*About Me*/</h1>
+    <h1 class="text-center">/*Contact Me*/</h1>
       <hr />
   <div class="row">
     <div class="col-md-5 col-md-4">
       <br />
+      <!--JS For deliverable 2 -->
+      <div id="deleteMe">
+      <form id="form1">
+      <input name="name" type="text" size="20" placeholder="Your Name Here">
+      </form>
+      <button class="btn btn-warning" onclick="outputname()">Submit</button>
+      </div>
+      <p id="demo" style="color:White; font-size:30px;"></p>
+      <!--JS for deliverable 2 end -->
       <blockquote style="color:white">Want to get in touch? Here's a handy place where you can send me an email. Or, if you're looking for less archaic ways of contacting me, feel free to hit any of the buttons in my footer, to bring you to my respective social media sites!</blockquote>
       <ol style="color:white">
         <li>Twitter</li>
@@ -38,7 +51,8 @@
         <li>GitHub</li>
         <li>FreeCodeCamp</li>
       </ol>
-    </div>
+
+</div>
     <div class="col-md-5">
       <form>
         <br />
